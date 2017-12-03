@@ -21,8 +21,8 @@ const (
 	SOCK_SEQPACKET = windows.SOCK_SEQPACKET
 )
 
-type Sockaddr = windows.Sockaddr
-type SockaddrInet4 = windows.SockaddrInet4
-type SockaddrInet6 = windows.SockaddrInet6
-type SockaddrUnix = windows.SockaddrUnix
-type RawSockaddrAny = windows.RawSockaddrAny
+type Sockaddr windows.Sockaddr
+type SockaddrInet4 windows.SockaddrInet4
+type SockaddrInet6 windows.SockaddrInet6
+type SockaddrUnix windows.SockaddrUnix
+type RawSockaddrAny windows.RawSockaddrAny
